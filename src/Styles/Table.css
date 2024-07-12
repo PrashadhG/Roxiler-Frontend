@@ -1,0 +1,177 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.table-filter {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+}
+
+.search {
+    width: 300px;
+    height: 30px;
+    padding: 5px 35px;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    outline: none;
+    color: rgb(91, 73, 73);
+    background-color: rgb(213, 210, 210);
+    border: 2px solid rgb(213, 210, 210);
+    border-radius: 5px;
+}
+
+.search:hover {
+    border: 2px solid rgb(52, 52, 252);
+}
+
+.search:focus {
+    border: 2px solid rgb(52, 52, 252);
+}
+
+.search::placeholder {
+    color: rgb(91, 73, 73);
+}
+
+.search-icon {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+.table-select {
+    padding: 5px;
+    border: 1px solid rgb(91, 73, 73);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    background-color: #fff;
+    color: rgb(91, 73, 73);
+    outline: none;
+}
+
+.table-select:focus {
+    outline: none;
+    border-color: #495b49;
+    box-shadow: 0 0 5px rgba(73, 91, 73, 0.5);
+}
+
+.table {
+    border: none;
+    border-collapse: collapse;
+}
+
+.outer-table-head {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(52, 52, 252);
+    border: none;
+    color: #fff;
+
+}
+
+.outer-table-head th {
+    padding: 15px 20px;
+}
+
+.outer-table-body img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.outer-table-body tr {
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(91, 73, 73);
+}
+
+.outer-table-body td {
+    font-family: "DM Sans", sans-serif;
+    padding-top: 5px;
+}
+
+.inner-table-body .table-title{
+    font-weight: bold;
+}
+.inner-table-body .table-description{
+    font-size: 13px;
+    text-align: left;
+    padding: 0 15px;
+}
+
+.table-category {
+    text-transform: capitalize;
+}
+
+.pagination-button{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.previous-button, .next-button{
+    font-family: "DM Sans" , sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 15px;
+    color: white;
+    background-color: rgb(52, 52, 252);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.previous-button:hover, .next-button:hover{
+    background-color: rgba(52, 52, 252, 0.814);
+}
+.previous-button:disabled, .next-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    color: white;
+    border: none;
+}
+
+.pagination-list{
+    font-family: "DM Sans" , sans-serif;
+    font-size: 15px;
+
+}
+
+.pagination-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: rgb(52, 52, 252);
+    color: white;
+    border: 1px solid rgb(52, 52, 252);
+}
+
+.pagination-button:hover{
+    background-color: rgb(52, 52, 252,0.8);
+    color: white;
+}

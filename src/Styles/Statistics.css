@@ -1,0 +1,120 @@
+.statistics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 80px;
+    height: 60vh;
+    margin-bottom: 100px;
+}
+
+.statistics-title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    color: rgb(52, 52, 252);
+}
+
+.statistics-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.statistics-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(52, 52, 252);
+    padding: 60px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.statistics-data p {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+
+}
+
+.statistics-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    height: 100px;
+}
+
+.stats-para {
+    align-self: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.stats-value {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 15px;
+    gap: 2px;
+}
+
+.stats-value p {
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+}
+
+.select-month {
+    flex: 1;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+}
+
+.month-radio-buttons input[type=radio] {
+    display: none;
+}
+
+.month-radio-buttons {
+    position: relative;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.month-radio-buttons label {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.month-radio-buttons input[type=radio]:checked+label {
+    color: #185ee0;
+    font-weight: bold;
+    
+}
+
+.month-line-1,
+.month-line-2,
+.month-line-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loader-container{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.skeleton-loader{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

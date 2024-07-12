@@ -1,0 +1,62 @@
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    gap: 30px;
+}
+
+.chart-first-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-title {
+    align-self: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    color: rgb(52, 52, 252);
+}
+
+.chart-month-dropdown{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.chart-month-dropdown label {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+}
+
+.chart-month-dropdown select {
+    padding: 5px;
+    border: 1px solid rgb(91, 73, 73);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    background-color: #fff;
+    color: rgb(91, 73, 73);
+    outline: none;
+}
+
+.chart-second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bar-chart{
+    width: 50%;
+    height: 60vh;
+    min-width: 300px;
+}
+
+.pie-chart{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    height: 45vh;
+    min-width: 300px;
+}
